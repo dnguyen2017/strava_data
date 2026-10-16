@@ -2,9 +2,8 @@
 source('strava_fit_pipeline.R')
 
 process_strava(
-  input = 'C:/Users/David/Downloads/strava-export/activities.zip',
-  metadata_csv = 'C:/Users/David/Downloads/strava-export/activities.csv',
-  output_dir = 'C:/Users/David/Documents/Running/strava_csv'
+  input = 'raw_data',
+  output_dir = 'data'
 )
 
 # Alternatively: input can be the extracted export folder, a full export ZIP
